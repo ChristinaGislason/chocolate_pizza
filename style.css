@@ -51,3 +51,8 @@ header div {
   margin-right: 2px;
 }
 
+/* RECIPE */
+.recipe {
+  background-image: url("img/list-bg.png");
+  width: 100%;
+}
