@@ -1,0 +1,53 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Yellowtail', cursive;
+}
+
+h2 {
+  font-family: 'Nova Mono', monospace;
+  font-size: 0.7em;
+}
+
+header div {
+  display: inline-block;
+  width: 45%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.content-left div {
+  width: auto;
+}
+
+.content-right {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.icon-group {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 0;
+  width: auto;
+}
+
+.icon-group img {
+  display: inline-block;
+  height: 24px;
+  margin-right: 2px;
+}
+
