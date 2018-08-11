@@ -5,6 +5,10 @@
   width: 90%;
 }
 
+.section-divider {
+  width: 100%;
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -53,17 +57,48 @@ header div {
   margin-right: 2px;
 }
 
+/* HERO */
+h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+}
+
+.hero {
+  margin: 9px;
+}
+
+.hero h2 {
+  color: gray;
+}
+
+.hero img {
+  width: 100%;
+}
+
 /* BLOG */
 .blog p {
   text-indent: 2%;
   font-family: serif;
   font-size: 15px;
+  width: 100%;
 }
 
 /* RECIPE */
 .recipe {
   background-image: url("img/list-bg.png");
-  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+
+.recipe ul {
+  padding: 7px;
+}
+
+li {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.3em;
+  padding: 2px;
 }
 
 /* FOOTER */
@@ -72,9 +107,13 @@ header div {
   margin: auto;
 } 
 
+.img-with-lines img {
+  width: 5%;
+}
+
 hr {
   display: inline-block;
-  width: 45%;
+  width: 46%;
 }
 
 .footnotes {
